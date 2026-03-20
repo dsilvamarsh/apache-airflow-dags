@@ -29,7 +29,7 @@ with DAG(
         # 'trigger_rule': 'all_success'
     },
     description="A simple tutorial DAG",
-    schedule=timedelta(minutes==1),
+    schedule=timedelta(minutes=1),
     start_date=datetime(2026, 3, 20),
     catchup=False,
     tags=["example"],
