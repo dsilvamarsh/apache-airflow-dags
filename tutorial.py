@@ -29,8 +29,8 @@ with DAG(
         # 'trigger_rule': 'all_success'
     },
     description="A simple tutorial DAG",
-    schedule=timedelta(days=1),
-    start_date=datetime(2021, 1, 1),
+    schedule=timedelta(minutes==1),
+    start_date=datetime(2026, 3, 20),
     catchup=False,
     tags=["example"],
 ) as dag:
